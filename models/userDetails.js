@@ -14,7 +14,6 @@ var userDetailsSchema = new Schema({
     type: Date,
     required: true,
   },
-
   flights: [
     {
       type: Schema.Types.ObjectId,
